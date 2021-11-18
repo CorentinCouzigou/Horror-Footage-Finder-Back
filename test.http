@@ -1,0 +1,103 @@
+
+### Récupération du quizz
+GET http://localhost:3001/api/v1/quiz
+
+
+### Récupération d'un film en fonction de son id
+GET http://localhost:3001/api/v1/movie/35998
+
+
+### Récupérer TOUS les films
+GET http://localhost:3001/api/v1/allmovies
+
+
+### Ajout d'un film à la watchlist
+POST http://localhost:3001/api/v1/user/3/movie/10086
+
+### Récupération d'un user en fonction de son id
+GET http://localhost:3001/api/v1/user/3/details
+
+### Suppression d'un user en fonction de son id
+DELETE http://localhost:3001/api/v1/user/10
+
+### Ajout d'un user en bdd
+POST http://localhost:3001/api/v1/register
+Content-Type: application/json
+
+{
+    "pseudo": "patate",
+    "email": "patate@gmail.fr",
+    "password": "test6"
+}
+
+
+# ### Login d'un user en bdd
+# POST http://localhost:3001/api/v1/login
+
+
+### Modification d'un user en bdd
+PATCH http://localhost:3001/api/v1/user/1
+Content-Type: application/json
+
+{
+    "pseudo": "kikou",
+    "email": "joie@gmail.fr",
+    "password": "test"
+}
+
+
+### Récupération d'un user en fonction de son id
+GET http://localhost:3001/api/v1/user/3/details
+
+
+### Récupération de la watchlist d'un user en fonction de son id
+GET http://localhost:3001/api/v1/user/3/watchlist
+
+### Récupération des films vus par un user en fonction de son id
+GET http://localhost:3001/api/v1/user/3/watched
+
+### Ajout d'un film à la watchlist
+POST  http://localhost:3001/api/v1/user/6/watchlist/24
+
+
+
+### Ajouter ou supprimer un film de la watchlist
+PATCH   http://localhost:3001/api/v1/user/6/watchlist/24
+
+
+
+### Récupération des meilleurs films notés
+GET http://localhost:3001/api/v1/selection/3
+
+### Récupération de toutes les notes d'un seul film
+GET http://localhost:3001/api/v1/movie/10086/ratings
+
+### Récupération de toutes les notes d'un seul utilisateur
+GET http://localhost:3001/api/v1/user/3/ratings
+
+### Récupération de le note d'un film donné par un utilisateur
+GET http://localhost:3001/api/v1/user/3/ratings/movie/1
+
+### Ajouter un film au film vus :
+POST http://localhost:3001/api/v1/user/3/watched/89
+
+### Modifier films watched : 
+PATCH   http://localhost:3001/api/v1/user/3/watched/89
+
+
+
+### Ajout d'une note à un film :
+PUT http://localhost:3001/api/v1/user/1/rating/movie/10086
+Content-Type: application/json
+
+{
+    "rating": "1"
+}
+
+### Modification d'une note donné à un film par un user :
+PATCH http://localhost:3001/api/v1/user/3/rating/movie/10086
+Content-Type: application/json
+
+{
+    "rating": "5"
+}
