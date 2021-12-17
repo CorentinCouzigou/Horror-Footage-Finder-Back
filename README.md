@@ -7,4 +7,4 @@ Je me permets d’apporter une petite précision sur l’application, aujourd’
 L’application est exhaustive sur ce sous-genre, mais ne concerne, pour le moment, que ce sous-genre à cause des contraintes de temps imposées pour ce projet.
 Notre application a donc pour vocation de proposer un outil pour mettre en lien les gouts d’un utilisateur en matière de cinématographique avec des films d’horreurs. Elle propose  également une expérience visuel atypique. Et enfin notre projet permet à nos utilisateurs de gérer une liste de films à voir propre à chaqu’un.
 
-[Lien vers notre application](https://horror-footage-finder.netlify.app/)
+:fire: [Lien vers notre application](https://horror-footage-finder.netlify.app/) :fire:
