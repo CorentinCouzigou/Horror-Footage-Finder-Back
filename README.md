@@ -1,4 +1,4 @@
-# Horror find finder - Côté Back
+# Horror Fottage Finder - Côté Back
 
 Je pense que nous avons tous été abonnés à une plateforme de streaming, et face à la quantité de films proposés, souvent nous ne savons quoi  regarder. 
 Etant  dans notre équipe tous cinéphile, on adore conseiller des films aux gens, mais souvent, c’est notre mémoire qui fait défaut : on se souvient plus des titres, on oublie certains films qu’on a déjà vus… ce n’est pas idéal.
